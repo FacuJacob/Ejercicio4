@@ -8,7 +8,7 @@
             Next
         Next
         For f = 1 To 10
-            vector(f) = matriz(f - 1, 1)
+            vector(f) = matriz(f, 1)
             For c = 1 To 8
                 If vector(f) > matriz(f, c) Then
                     vector(f) = matriz(f, c)
@@ -23,7 +23,7 @@
             grdMatriz.Columns.Add("", "")
             grdMatriz.Columns(j - 1).Width = 35
         Next
-        grdMatriz.Rows.Add(10)
+        grdMatriz.Rows.Add(9)
 
         lstVector.Items.Clear()
 
