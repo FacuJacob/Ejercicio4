@@ -36,7 +36,7 @@ Partial Class Form1
         grdMatriz.Name = "grdMatriz"
         grdMatriz.RowHeadersVisible = False
         grdMatriz.RowTemplate.Height = 25
-        grdMatriz.Size = New Size(362, 289)
+        grdMatriz.Size = New Size(362, 274)
         grdMatriz.TabIndex = 0
         ' 
         ' lstVector
@@ -45,12 +45,12 @@ Partial Class Form1
         lstVector.ItemHeight = 15
         lstVector.Location = New Point(380, 12)
         lstVector.Name = "lstVector"
-        lstVector.Size = New Size(87, 289)
+        lstVector.Size = New Size(87, 274)
         lstVector.TabIndex = 1
         ' 
         ' cmdEjecutar
         ' 
-        cmdEjecutar.Location = New Point(12, 307)
+        cmdEjecutar.Location = New Point(12, 292)
         cmdEjecutar.Name = "cmdEjecutar"
         cmdEjecutar.Size = New Size(362, 58)
         cmdEjecutar.TabIndex = 2
