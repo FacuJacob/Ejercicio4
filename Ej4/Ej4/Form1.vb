@@ -17,5 +17,26 @@
             Next
             vector(f) = min
         Next
+
+
+
+        grdMatriz.Columns.Clear()
+        For j = 1 To 8
+            grdMatriz.Columns.Add("", "")
+            grdMatriz.Columns(j - 1).Width = 20
+        Next
+        grdMatriz.Rows.Add(10)
+
+        lstVector.Items.Clear()
+
+
+        For f = 1 To 10
+            For c = 1 To 8
+                grdMatriz.Item(c - 1, f - 1).Value = matriz(f, c)
+            Next
+        Next
+        For j = 1 To 10
+            lstVector.Items.Add(vector(j))
+        Next
     End Sub
 End Class
